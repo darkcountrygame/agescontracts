@@ -1,0 +1,17 @@
+[package]
+name = "farm"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dev='0x192ff9e249146bd456d9d126d0c5a4d72116bb49713103917c4fa584d6a6a27a'
+collection_creator='0x62e2abc21d1820deb38681c8de44adec487707036ab31c2224801d6725bb3885'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token", rev = "mainnet" }
+wood  = {local="../wood"}
+food  = {local="../food"}
+stone = {local="../stone"}
+gems  = {local="../gems"}
+minter = {local="../minter"}

@@ -1,0 +1,11 @@
+[package]
+name = "templates"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dev='0x192ff9e249146bd456d9d126d0c5a4d72116bb49713103917c4fa584d6a6a27a'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token", rev = "mainnet" }
